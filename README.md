@@ -33,7 +33,6 @@ Example Log: Potato log, I don't like french fries enymore it's very bizarre. Ov
 
 ## Architecture
 
-I don't think I need to worry too much about this. A monolith makes the most sense and if there are significant issues I can break it up. The app as it is shouldn't need
-a monolith.
+I don't think I need to worry too much about this. A monolith makes the most sense and if there are significant issues I can break it up. The app as it is shouldn't need microservices or event driven stuff. 
 
 
