@@ -35,4 +35,12 @@ Example Log: Potato log, I don't like french fries enymore it's very bizarre. Ov
 
 I don't think I need to worry too much about this. A monolith makes the most sense and if there are significant issues I can break it up. The app as it is shouldn't need microservices or event driven stuff. 
 
+## Frameworks
+
+- Backend Spring
+- Frontend React Native
+- The build should produce 4 builds eventually. 1 for the Web, 1 for backend, 1 for android. IOS will need to wait until I have an ios device.
+
+
+
 
