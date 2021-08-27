@@ -1,0 +1,6 @@
+
+services:
+  database:
+    extends:
+      file: ./database/developer-database/stack.yml
+      service: mongo

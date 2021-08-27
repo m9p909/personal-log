@@ -16,7 +16,7 @@ jobs:
       - checkout
       - run:
           name: StartDatabase
-          command: database/developer-database/setup-database.sh
+          command: docker-compose up -d
       # Use mvn clean and package as the standard maven build phase
       - run:
           name: Build
