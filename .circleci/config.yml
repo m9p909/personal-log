@@ -15,7 +15,6 @@ jobs:
       # Checkout the code as the first step.
       - checkout
       - setup_remote_docker
-        version: 19.03.13
       #Setup database
       - run:
           name: StartDatabase
