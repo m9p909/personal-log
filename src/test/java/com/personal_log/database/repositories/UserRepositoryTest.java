@@ -49,7 +49,6 @@ public class UserRepositoryTest {
                 .perform(get("/users"))
                 .andExpect(status().isOk())
                 .andReturn();
-        JsonObject data = getResponseBodyAsJson(result);
     }
 
     @Test
@@ -61,9 +60,6 @@ public class UserRepositoryTest {
                         .content(postData))
                 .andExpect(status().is2xxSuccessful())
                 .andReturn();
-        JsonObject data = getResponseBodyAsJson(result);
-        assertTrue(data.get("id").getAsString().length() > 0);
-
     }
 
 }
