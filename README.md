@@ -42,5 +42,12 @@ I don't think I need to worry too much about this. A monolith makes the most sen
 - The build should produce 4 builds eventually. 1 for the Web, 1 for backend, 1 for android. IOS will need to wait until I have an ios device.
 
 
+## CI/CD
+
+I have setup some ci with circle CI.
+
+Now I need to figure out how to deploy it. Heroku seems like a good option because it has a very strong free tier. 
+
+
 
 
